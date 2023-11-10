@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- VIEWPORT META -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/favicon/favicon.ico" />
+    <meta name="theme-color" content="#222222" />
+
+    <!-- WEBSITE DESCRIPTION META -->
+    <meta name="description" content="Omolade Oke's website" />
+    <meta
+      name="keywords"
+      content="omolade oke, omolade, oke, omolade's website, omolade's portfolio, portfolio, travoofy, intenopay"
+    />
+    <meta name="Author" content="omolade oke" />
+    <meta name="image" content="./og.png" />
+    <meta name="image" content="%PUBLIC_URL%/og.png" />
+
+    <!-- TELLING THE PREFFERED LINK TO SEARCH ENGINE -->
+    <link rel="canonical" href="https://ladeoke.com" />
+
+    <!-- OG DESCRIPTION (OVERVIEW OF HOW THE WEBSITE LOOK LIKE WHEN LINK IS SHARED ON SOCIAL PLATFORMS) -->
+    <meta property="og:url" content="https://ladeoke.com" />
+    <meta property="og:title" content="Omolade Oke" />
+    <meta property="og:description" content="Omolade Oke's website" />
+    <meta property="og:site_name" content="Omolade Oke" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="600" />
+    <meta property="og:image" content="%PUBLIC_URL%/og.png" />
+    <meta property="og:image" content="./og.png" />
+
+    <!-- MANIFEST json file that provide metadata about -->
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+
+    <!-- OG TWITTER:CARD (HOW CONTENT PRESENTED WHEN SHARED ON TWITTER) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="%PUBLIC_URL%/og.png" />
+    <meta name="twitter:image" content="./og.png" />
+    <meta name="twitter:creator" content="@oke_omolade" />
+    <meta name="twitter:title" content="omalade oke's website" />
+    <meta name="twitter:description" content="omalade oke's website" />
+
+    <!-- CHROME 512 (ICON TO DISPLAY ON ANDRIOD CHROME HOME SCREEN  WHEN WEBSITE IS BEEN SAVED) -->
+    <link
+      rel="android-chrome-512x512"
+      sizes="512*512"
+      href="./assets/favicon/android-chrome-512x512.png"
+      type="image/png"
+    />
+
+    <!-- CHROME 192 -->
+    <link
+      rel="android-chrome-192x192"
+      sizes="192*192"
+      href="./assets/favicon/android-chrome-192x192.png"
+      type="image/png"
+    />
+
+    <!-- APPLE TOUCH -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180*180"
+      href="./assets/favicon/apple-touch-icon.png"
+      type="image/png"
+    />
+
+    <!-- FAVICON-32*32 -->
+    <link
+      rel="favicon-32x32"
+      sizes="32*32"
+      href="./assets/favicon/favicon-32x32.png"
+      type="image/png"
+    />
+
+    <!-- FAVICON-16x16 -->
+    <link
+      rel="favicon-16x16"
+      sizes="16*16"
+      href="./assets/favicon/favicon-16x16.png"
+      type="image/png"
+    />
+
+    <!-- AOS CDN (FOR THE CONTENT SLIDE IN) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- CUSTOM STYLES -->
+    <link rel="stylesheet" href="./dist/style.css" />
+
+    <title>Omolade | Home</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="header__wrapper">
+          <div
+            class="header__img-frame"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
+            <img
+              class="header__img"
+              src="./assets/omolade.webp"
+              alt="omolade"
+            />
+          </div>
+
+          <div class="header__details">
+            <h1
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="100"
+            >
+              Omolade
+            </h1>
+
+            <div class="social__icons-wrapper">
+              <!-- EMAIL LINK -->
+              <a
+                class="social__icon"
+                href="mailto:okeomolade@gmartalliance.com"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-delay="200"
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+
+              <!-- WHATSAPP LINK -->
+              <a
+                class="social__icon"
+                href="https://api.whatsapp.com/send?phone=2348180455030"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-delay="300"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+
+              <!-- LINKEDIN LINK -->
+              <a
+                class="social__icon"
+                href="https://www.linkedin.com/in/omolade-oke-2a5252153/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-delay="400"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+
+              <!-- TWITER LINK -->
+              <a
+                class="social__icon"
+                href="https://twitter.com/oke_omolade"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-delay="500"
+              >
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+
+              <!-- INSTAGRAM LINK -->
+              <a
+                class="social__icon"
+                href="https://www.instagram.com/mr.omolade"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-delay="600"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+
+            <div class="header__description">
+              <h2
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-delay="700"
+              >
+                GMD and CRO GMART ALLIANCE GROUP
+              </h2>
+              <p
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-delay="800"
+              >
+                Welcome to my world Here you will have some access to what I
+                stand for. Firstly, I have a very strong interest in payments
+                and travels My methods are simple and I love to solve problems
+                differently.
+
+                <!-- Creator of new age tech solutions to pioneer safe cross-border
+                  payments and Increase global access for individuals and
+                  communities. -->
+
+                <span
+                  class="moreDetails display-none"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                  data-aos-delay="100"
+                >
+                  <span>
+                    I&apos;m currently bootstrapping Internopay and Travoofy
+                    under Gmart Alliance Group to a Unicon. Travoofy is
+                    evolutionalizing Travels for Africans by providing an end to
+                    end services and opening Africans to global opportunities
+                    through travels while Internopay is remodeling cross border
+                    payments by enabling Africans make international payments
+                    with a click on screen using blockchain as the underlying
+                    technology My Ambition is to Champion innovations in
+                    international payments and travels and my targets is to
+                    champion a technology independent Africa, where we get to
+                    look inwards and solve problem creativity. Feel free to
+                    connect if you believe we can collaborate to discuss and
+                    launch technology solutions.
+                  </span>
+                </span>
+              </p>
+
+              <div class="moreDetails__toggle">
+                <p
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                  data-aos-delay="900"
+                >
+                  <span>View More</span>
+                </p>
+              </div>
+
+              <div class="next">
+                <a
+                  href="#travoofy"
+                  data-aos="zoom-in-up"
+                  data-aos-duration="1500"
+                  data-aos-delay="1300"
+                  data-aos-easing="ease-in-sine"
+                >
+                  <i class="fa-solid fa-chevron-down"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- BEGINING OF TRAVOOFY SECTION -->
+      <section>
+        <div class="span__dots">
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-circle"></i>
+        </div>
+
+        <div id="travoofy">
+          <div class="img__frame" data-aos="fade-up" data-aos-duration="1500">
+            <a
+              href="http:///www.travoofy.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="./assets/travoofy.webp" alt="travoofy" />
+            </a>
+          </div>
+
+          <div class="section__details">
+            <div
+              class="section__title"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
+              <span>TRAVELS - TECH COMPANY</span>
+            </div>
+
+            <h1
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="100"
+            >
+              TRAVOOFY
+            </h1>
+            <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+              Travoofy is an Online Travel Agency that provides travel, tours,
+              holiday, study abroad ,Logistics support and premium travel
+              solutions based on individual preferences.
+            </p>
+
+            <div
+              data-aos="zoom-in-up"
+              data-aos-duration="1500"
+              data-aos-delay="300"
+            >
+              <a
+                href="https://www.travoofy.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>VIEW MORE</span>
+                <span>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END OF TRAVOOFY SECTION -->
+
+      <!-- BEGINING OF INTERNOPAY SECTION -->
+      <section>
+        <div class="span__dots">
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-circle"></i>
+        </div>
+
+        <div id="internopay">
+          <div class="img__frame" data-aos="fade-up" data-aos-duration="1500">
+            <a
+              href="http://www.internopay.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="./assets/internopay.webp" alt="internopay" />
+            </a>
+          </div>
+
+          <div class="section__details">
+            <div
+              class="section__title"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
+              <span>PAYMENT SOLUTION</span>
+            </div>
+
+            <h1
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="100"
+            >
+              INTERNOPAY
+            </h1>
+            <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+              Internopay enables local and global businesses to build and scale
+              effortlessly with powerful payment solutions. Start growing your
+              business today with a powerful cross border payment solution.
+            </p>
+
+            <div
+              data-aos="zoom-in-up"
+              data-aos-duration="1500"
+              data-aos-delay="300"
+            >
+              <a
+                href="https://www.internopay.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>VIEW MORE</span>
+                <span>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END OF INTERNOPAY SECTION -->
+
+      <!-- BEGINING OF GMART ALLIANCE SECTION -->
+      <section>
+        <div class="span__dots">
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-circle"></i>
+        </div>
+
+        <div id="gmartalliance">
+          <div class="img__frame" data-aos="fade-up" data-aos-duration="1500">
+            <a
+              href="http://www.gmartalliance.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="./assets/gmartalliance.webp" alt="gmartalliance" />
+            </a>
+          </div>
+
+          <div class="section__details">
+            <div
+              class="section__title"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
+              <span>GLOBAL RESOURCE GROUP</span>
+            </div>
+
+            <h1
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="100"
+            >
+              GMART ALLIANCE
+            </h1>
+            <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+              A global resources group comprising of subsidiaries, with a common
+              goal to manage the problems of opportunity, access, knowledge, and
+              skill, individually and at the policy level. By employing the best
+              technical and digital minds we intend to innovatively transform
+              the trading and exchange industry across by creating platforms of
+              borderless reach.
+            </p>
+
+            <div
+              data-aos="zoom-in-up"
+              data-aos-duration="1500"
+              data-aos-delay="300"
+            >
+              <a
+                href="http://www.gmartalliance.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>VIEW MORE</span>
+                <span>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END OF GMART ALLIANCE SECTION -->
+
+      <!-- BEGINING OF CONTACT SECTION -->
+      <section>
+        <div class="span__dots">
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-circle"></i>
+        </div>
+
+        <div id="contact">
+          <div class="contact__title">
+            <p data-aos="fade-up" data-aos-duration="1500">
+              DON'T BE A STRANGER
+            </p>
+            <h1
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="100"
+            >
+              Get in touch
+            </h1>
+          </div>
+
+          <div
+            class="contact__paragraphs"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
+            <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+              Hit any of these buttons and let's get acquainted...
+            </p>
+          </div>
+
+          <div class="social__icons-wrapper">
+            <!-- EMAIL LINK -->
+            <a
+              class="social__icon"
+              href="mailto:okeomolade@gmartalliance.com"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+
+            <!-- WHATSAPP LINK -->
+            <a
+              class="social__icon"
+              href="https://api.whatsapp.com/send?phone=2348180455030"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="100"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <!-- LINKEDIN LINK -->
+            <a
+              class="social__icon"
+              href="https://www.linkedin.com/in/omolade-oke-2a5252153/"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="200"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <!-- TWITER LINK -->
+            <a
+              class="social__icon"
+              href="https://twitter.com/oke_omolade"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="300"
+            >
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+
+            <!-- INSTAGRAM LINK -->
+            <a
+              class="social__icon"
+              href="https://www.instagram.com/mr.omolade"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="400"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- END OF CONTACT SECTION -->
+
+      <!-- BEGINING OF FOOTER -->
+      <footer>
+        <div>
+          <small>
+            Copyright &copy; 2022, Omolade Oke. All rights reserved.
+          </small>
+        </div>
+      </footer>
+      <!-- END OF FOOTER -->
+    </main>
+
+    <!-- AOS & FONT AWESOME CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+      integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+
+    <!-- MAIN SCRIPT -->
+    <script src="./app/js/index.js" defer></script>
+  </body>
+</html>
